@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to Survey...</title>
+  <script>
+    // 隨機數值（0~1）
+    var rand = Math.random();
+
+    // 分流導向 Control 或 Treatment
+    if (rand < 0.5) {
+      window.location.href = "https://www.surveycake.com/s/GQLMN"; // Control
+    } else {
+      window.location.href = "https://www.surveycake.com/s/80N4l"; // Treatment
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting to your survey, please wait...</p>
+</body>
+</html>
